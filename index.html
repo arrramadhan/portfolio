@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Saya</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">MyPortfolio</div>
+    <nav>
+      <ul>
+        <li><a href="#" data-page="home">Home</a></li>
+        <li><a href="#" data-page="about">About Me</a></li>
+        <li><a href="#" data-page="skills">Skills</a></li>
+        <li><a href="#" data-page="timeline">Timeline</a></li>
+        <li><a href="#" data-page="contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Home Section -->
+    <section id="home" class="page active">
+      <div class="profile">
+        <img src="images/profile.jpg" alt="Foto Profil Saya">
+        <h1>Hi, I'm <span class="highlight">Arramadhan</span></h1>
+        <p>Welcome to my personal portfolio website.</p>
+        <div class="socials">
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="page">
+      <h1>About Me</h1>
+      <p>Hi! I'm Arramadhan, a passionate learner currently diving deep into the world of programming, UI design, and everything digital. Although I’m still in the early stages of my journey, I am committed to mastering languages like Python, Flutter, HTML, CSS, and JavaScript, while exploring the creative side of UI design. I am enthusiastic about building functional and visually appealing digital experiences and always looking for new opportunities to learn and grow. My journey is just beginning, and I am excited to see where it takes me!</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="page">
+      <h1>My Skills</h1>
+      <p>These are the technologies I am proficient in:</p>
+      <div class="skills-container">
+        <div class="skill-item">
+          <label>HTML</label>
+          <div class="skill-bar">
+            <div class="skill-level html"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <label>CSS</label>
+          <div class="skill-bar">
+            <div class="skill-level css"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <label>JavaScript</label>
+          <div class="skill-bar">
+            <div class="skill-level js"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+<section id="timeline" class="page">
+    <h1>My Journey</h1>
+    <div class="timeline">
+  
+      <div class="timeline-item">
+        <div class="timeline-date">2023</div>
+        <div class="timeline-content">
+          <h3>Started Learning to Code</h3>
+          <p>This was the year I began learning the basics of programming using Python and explored small-scale projects on my own.</p>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <div class="timeline-date">2023 - 2024</div>
+        <div class="timeline-content">
+          <h3>Joined My First Group Projects</h3>
+          <p>I actively collaborated with friends on various group projects, building simple apps and learning how to work as a team.</p>
+        </div>
+      </div>
+  
+      <div class="timeline-item">
+        <div class="timeline-date">2024 - 2025</div>
+        <div class="timeline-content">
+          <h3>Created My Own Projects</h3>
+          <p>I developed my first personal project — a calculator application using Flutter called <strong>CALCSHIEL</strong> — featuring a history list and an animated splash screen. I also built my own websites, including a simple personal website and a couple-themed one.</p>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="page">
+      <h1>Contact Me</h1>
+      <p>Feel free to reach out through any of these platforms:</p>
+      <div class="contact-container">
+        <div class="contact-item">
+          <i class="fa-brands fa-whatsapp"></i>
+          <a href="https://wa.me/6282188876127" target="_blank">WhatsApp</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa-brands fa-instagram"></i>
+          <a href="https://instagram.com/arrramadhan_" target="_blank">Instagram</a>
+        </div>
+        <div class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:mhmmdaryaa2004@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Arramadhan. All rights reserved. | <a href="mailto:contact@arramadhan.com">Contact Me</a></p>
+    <div class="footer-socials">
+      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
